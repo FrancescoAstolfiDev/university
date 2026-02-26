@@ -1,0 +1,17 @@
+
+=== Feature Selection Results for Release 5 ===
+Selected Features (3):
+  - qtyTryCatch
+  - fanin
+  - age
+Discarded Features (9):
+  - loc
+  - wmc
+  - assignmentsQty
+  - mathOperationsQty
+  - qtyReturn
+  - fanout
+  - nAuth
+  - nr
+  - nSmell
+

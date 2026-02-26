@@ -1,0 +1,17 @@
+
+=== Feature Selection Results for Release 10 ===
+Selected Features (2):
+  - fanin
+  - age
+Discarded Features (10):
+  - loc
+  - wmc
+  - assignmentsQty
+  - mathOperationsQty
+  - qtyTryCatch
+  - qtyReturn
+  - fanout
+  - nAuth
+  - nr
+  - nSmell
+

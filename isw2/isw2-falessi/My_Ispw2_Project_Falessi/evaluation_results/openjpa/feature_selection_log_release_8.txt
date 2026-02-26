@@ -1,0 +1,17 @@
+
+=== Feature Selection Results for Release 8 ===
+Selected Features (2):
+  - loc
+  - age
+Discarded Features (10):
+  - wmc
+  - assignmentsQty
+  - mathOperationsQty
+  - qtyTryCatch
+  - qtyReturn
+  - fanin
+  - fanout
+  - nAuth
+  - nr
+  - nSmell
+

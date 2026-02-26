@@ -1,0 +1,17 @@
+
+=== Feature Selection Results for Release 6 ===
+Selected Features (4):
+  - qtyTryCatch
+  - age
+  - nAuth
+  - nr
+Discarded Features (8):
+  - loc
+  - wmc
+  - assignmentsQty
+  - mathOperationsQty
+  - qtyReturn
+  - fanin
+  - fanout
+  - nSmell
+
