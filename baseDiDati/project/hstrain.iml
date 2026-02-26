@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_17">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/model/connection" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/model/dbms" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/model/users" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/general/controller" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/login/controllerApplicative" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/login/controllerView" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/InitialView/controllerView" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/login/controller" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/signup/controller" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/signup/controllerView" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/AddRide/Controller" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/Bean" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/InitialView/controller" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/bookTicket/controller" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/ContollerApplicative" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/addRide/ControllerView" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/bookTicket/ControllerView" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/ticketBought/ControllerView" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/ticketDetails/ControllerView" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/CreateUser/ControllerView" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/CreateWorker/ControllerView" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/addReport/ControllerView" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/assignRide/ControllerView" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/countPassengersCars/ControllerView" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/countSeats/ControllerView" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/readWeeklyWorkTime/ControllerView" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/workerAssignment/ControllerView" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="mysql-connector-j-8.0.31" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-controls:17.0.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-controls:win:17.0.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-graphics:17.0.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-graphics:win:17.0.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-base:17.0.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-base:win:17.0.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-fxml:17.0.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-fxml:win:17.0.0.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.junit.jupiter:junit-jupiter-api:5.7.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apiguardian:apiguardian-api:1.1.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.opentest4j:opentest4j:1.2.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.junit.platform:junit-platform-commons:1.7.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.junit.jupiter:junit-jupiter-engine:5.7.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.junit.platform:junit-platform-engine:1.7.1" level="project" />
+  </component>
+</module>

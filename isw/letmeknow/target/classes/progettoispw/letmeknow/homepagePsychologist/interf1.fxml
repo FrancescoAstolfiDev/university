@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="736.0" prefWidth="414.0" stylesheets="@../css.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="progettoispw.letmeknow.HomepagePsychologistInterf1">
+   <children>
+      <FontAwesomeIcon glyphName="SIGNAL" layoutX="290.0" layoutY="18.0" size="20" />
+      <ImageView fitHeight="41.0" fitWidth="32.0" layoutX="371.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true" />
+
+      <FontAwesomeIcon glyphName="WIFI" layoutX="331.0" layoutY="21.0" size="20" />
+      <Text layoutX="35.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="hiperlink_signup" text="9.31" />
+      <Text fill="#377dff" layoutX="96.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textTitle" text="Let me know" />
+      <Button layoutX="268.0" layoutY="350.0" minHeight="32.0" minWidth="106.0" mnemonicParsing="false" opacity="0.49" prefHeight="35.0" prefWidth="106.0" styleClass="bottonesfondo" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f4f4f4" height="26.0" layoutX="94.0" layoutY="240.0" stroke="#f4f4f4" strokeType="INSIDE" style="-fx-opacity: 1;" styleClass="bottonesfondo" width="200.0" />
+      <Text fill="#243443" layoutX="122.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 25;" styleClass="textSubTitle" text="Collect Forms" />
+      <Button layoutX="35.0" layoutY="49.0" mnemonicParsing="false" onAction="#backTo" prefHeight="30.0" prefWidth="35.0" styleClass="Back_Row">
+         <graphic>
+            <FontAwesomeIcon fill="WHITE" glyphName="ARROW_LEFT" size="20" />
+         </graphic>s
+      </Button>
+      <Button layoutX="65.0" layoutY="647.0" mnemonicParsing="false" onAction="#suggestForm" opacity="0.5" prefHeight="50.0" prefWidth="306.0" style="-fx-font-size: 20;" styleClass="Button" text="Suggest Other form" textFill="WHITE" />
+      <FontAwesomeIcon fill="WHITE" glyphName="EDIT" layoutX="330.0" layoutY="680.0" size="25" />
+      <ImageView fitHeight="41.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true" x="371.0" y="-2.0">
+         <image>
+            <Image url="@../photo/battery.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="form1" layoutX="12.0" layoutY="140.0" mnemonicParsing="false" onAction="#select" prefHeight="66.0" prefWidth="392.0" style="-fx-font-size: 30;">
+         <styleClass>
+            <String fx:value="form" />
+            <String fx:value="textSubSubTitle" />
+         </styleClass>
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+         <graphic>
+            <Group>
+               <children>
+                  <Label layoutX="195.0" layoutY="-3.0" prefHeight="21.0" prefWidth="130.0" text="completed by:&#10;" textFill="#9a8c8c">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="form1" layoutX="-1.0" mnemonicParsing="false" onAction="#select" prefHeight="41.0" prefWidth="41.0" styleClass="Back_Row">
+                     <graphic>
+                        <FontAwesomeIcon fill="WHITE" glyphName="LIST_UL" size="25" />
+                     </graphic>
+                  </Button>
+                  <Text layoutX="72.0" layoutY="35.2744140625" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 30;" text="Form 1">
+                     <styleClass>
+                        <String fx:value="form" />
+                        <String fx:value="textSubSubTitle" />
+                     </styleClass>
+                  </Text>
+                  <Label fx:id="count1" layoutX="195.0" layoutY="20.0" prefHeight="27.0" prefWidth="120.0" text="100 users" textFill="#9a8c8c">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Group>
+         </graphic>
+      </Button>
+      <Button fx:id="form2" layoutX="10.0" layoutY="218.0" mnemonicParsing="false" onAction="#select" prefHeight="66.0" prefWidth="392.0" style="-fx-font-size: 30;">
+         <styleClass>
+            <String fx:value="form" />
+            <String fx:value="textSubSubTitle" />
+         </styleClass>
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+         <graphic>
+            <Group>
+               <children>
+                  <Button fx:id="form2" layoutX="-1.0" mnemonicParsing="false" onAction="#select" prefHeight="41.0" prefWidth="41.0" styleClass="Back_Row">
+                     <graphic>
+                        <FontAwesomeIcon fill="WHITE" glyphName="LIST_UL" size="25" />
+                     </graphic>
+                  </Button>
+                  <Text layoutX="72.0" layoutY="35.2744140625" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 30;" text="Form 2">
+                     <styleClass>
+                        <String fx:value="form" />
+                        <String fx:value="textSubSubTitle" />
+                     </styleClass>
+                  </Text>
+                  <Label layoutX="195.0" layoutY="-3.0" prefHeight="27.0" prefWidth="117.0" text="completed by:&#10;" textFill="#9a8c8c">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="count2" layoutX="195.0" layoutY="19.0" prefHeight="27.0" prefWidth="113.0" text="100 users" textFill="#9a8c8c">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Group>
+         </graphic>
+      </Button>
+      <Button fx:id="form3" layoutX="11.0" layoutY="298.0" mnemonicParsing="false" onAction="#select" prefHeight="66.0" prefWidth="392.0" style="-fx-font-size: 30;">
+         <styleClass>
+            <String fx:value="form" />
+            <String fx:value="textSubSubTitle" />
+         </styleClass>
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+         <graphic>
+            <Group>
+               <children>
+                  <Button fx:id="form3" layoutX="-1.0" layoutY="1.0" mnemonicParsing="false" onAction="#select" prefHeight="41.0" prefWidth="41.0" styleClass="Back_Row">
+                     <graphic>
+                        <FontAwesomeIcon fill="WHITE" glyphName="LIST_UL" size="25" />
+                     </graphic>
+                  </Button>
+                  <Text layoutX="72.0" layoutY="35.2744140625" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 30;" text="Form 3">
+                     <styleClass>
+                        <String fx:value="form" />
+                        <String fx:value="textSubSubTitle" />
+                     </styleClass>
+                  </Text>
+                  <Label layoutX="195.0" prefHeight="27.0" prefWidth="117.0" text="completed by:&#10;" textFill="#9a8c8c">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="count3" layoutX="195.0" layoutY="18.0" prefHeight="27.0" prefWidth="113.0" text="100 users" textFill="#9a8c8c">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Group>
+         </graphic>
+      </Button>
+      <TextArea fx:id="feedback" layoutX="26.0" layoutY="439.0" prefHeight="197.0" prefWidth="370.0" styleClass="square" />
+      <Label fx:id="month" layoutX="156.0" layoutY="381.0" text="January">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Button layoutX="120.0" layoutY="386.0" mnemonicParsing="false" onAction="#decrem" text="&lt;" />
+      <Button layoutX="278.0" layoutY="388.0" mnemonicParsing="false" onAction="#increm" text="&gt;" />
+      <Button layoutX="360.0" layoutY="50.0" mnemonicParsing="false" onAction="#goToSettings" styleClass="Back_Row">
+         <graphic>
+            <FontAwesomeIcon fill="WHITE" glyphName="COG" size="20" />
+         </graphic>
+         <padding>
+            <Insets top="2.0" />
+         </padding>
+      </Button>
+   </children>
+</AnchorPane>

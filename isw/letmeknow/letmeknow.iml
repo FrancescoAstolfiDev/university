@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_17_PREVIEW">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/Pattern/abstractFactory/progettoispw" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/homepage/controllerApplicative" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/homepage/controllerApplicative/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/homepage/controllerView" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/homepage/controllerView/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/formToTake/controllerView" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/homepageEdit/controllerApplicative" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/homepageEdit/controllerView" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/formToTake/controllerApplicative" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/patterns/singleton" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/login/controllerApplicative" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/login/controllerView" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/search/controllerApplicative" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/search/controllerView" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/resultSearch/controllerApplicative" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/resultSearch/controllerView" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/searchResults/controllerApplicative" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/searchResults/controllerView" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecasePKG" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/visit/controllerApplicative" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/visit/controllerView" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/chat/controllerApplicative" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/chat/controllerView" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/initialSearchAndChat/controllerApplicative" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/initialSearchAndChat/controllerView" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/recoverPSWD/controllerApplicative" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/recoverPSWD/controllerView" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/signup/controllerApplicative" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/signup/controllerView" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/formCollectionResults/controllerView" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/formResult/controllerView" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/formResult/controllerApplicative" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/formPsicologistResult/controllerApplicative" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/formPsicologistResult/controllerView" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/settings/controllerApplicative" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/settings/controllerView" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/signupPsycologist/controllerView" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/java/controllerApplicative" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/java/controllerView" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/formCollectionResults/controllerApplicative" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/homepagePsycologist/controllerApplicative" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/usecase/homepagePsycologist/controllerView" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/model/user1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/patterns/decorator" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/patterns/facade" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/patterns/factory" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="fontawesomefx-8.2" level="project" />
+    <orderEntry type="library" name="mysql-connector-java-8.0.25" level="project" />
+    <orderEntry type="library" name="activation-1.1" level="project" />
+    <orderEntry type="library" name="javax.mail" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-controls:17.0.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-controls:win:17.0.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-fxml:17.0.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-fxml:win:17.0.0.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.junit.jupiter:junit-jupiter-api:5.7.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apiguardian:apiguardian-api:1.1.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.opentest4j:opentest4j:1.2.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.junit.platform:junit-platform-commons:1.7.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.junit.jupiter:junit-jupiter-engine:5.7.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.junit.platform:junit-platform-engine:1.7.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-graphics:17.0.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-graphics:win:17.0.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-base:17.0.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-base:win:17.0.0.1" level="project" />
+  </component>
+  <component name="SonarLintModuleSettings">
+    <option name="sqPathPrefix" value="progettoRieditatosecondo" />
+  </component>
+</module>

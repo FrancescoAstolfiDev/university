@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="790.0" prefWidth="1440.0" stylesheets="@../css.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="progettoispw.letmeknow.HomepagePsychologistInterf2">
+    <children>
+        <ImageView fitHeight="41.0" fitWidth="32.0" layoutX="931.0" pickOnBounds="true" preserveRatio="true" />
+        <Button layoutX="20.0" layoutY="442.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="27.0" styleClass="Label" textFill="WHITE" />
+        <Line endX="350.0" endY="-154.0" layoutX="279.0" layoutY="153.0" startX="350.0" startY="642.4666748046875" styleClass="line" />
+        <AnchorPane fx:id="anchorSelected" layoutX="633.0" layoutY="-1.0" prefHeight="790.0" prefWidth="806.0" style="-fx-background-color: transparent;" />
+        <Text layoutX="188.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 40;" styleClass="textSubTitle" text="Collect Form">
+            <font>
+                <Font size="40.0" />
+            </font>
+        </Text>
+      <Text fill="#377dff" layoutX="181.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="textTitle" text="Let me know" />
+      <Button layoutX="69.0" layoutY="71.0" mnemonicParsing="false" onAction="#backTo" prefHeight="30.0" prefWidth="35.0" styleClass="Back_Row">
+         <graphic>
+            <FontAwesomeIcon fill="WHITE" glyphName="ARROW_LEFT" size="20" />
+         </graphic>
+      </Button>
+      <Button layoutX="480.0" layoutY="72.0" mnemonicParsing="false" onAction="#goToSettings" styleClass="Back_Row">
+         <graphic>
+            <FontAwesomeIcon fill="WHITE" glyphName="COG" size="20" />
+         </graphic>
+         <padding>
+            <Insets top="2.0" />
+         </padding>
+      </Button>
+      <Label fx:id="month" layoutX="261.0" layoutY="456.0" text="January">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Button layoutX="199.0" layoutY="461.0" mnemonicParsing="false" onAction="#decrem" text="&lt;" />
+      <Button layoutX="383.0" layoutY="463.0" mnemonicParsing="false" onAction="#increm" text="&gt;" />
+      <Button layoutX="162.0" layoutY="721.0" mnemonicParsing="false" onAction="#suggestForm" opacity="0.5" prefHeight="50.0" prefWidth="306.0" style="-fx-font-size: 20;" styleClass="Button" text="Suggest Other form" textFill="WHITE" />
+      <TextArea fx:id="feedback" layoutX="123.0" layoutY="513.0" prefHeight="197.0" prefWidth="370.0" styleClass="square" />
+      <Button fx:id="form1" layoutX="118.0" layoutY="199.0" mnemonicParsing="false" onAction="#select" prefHeight="66.0" prefWidth="392.0" style="-fx-font-size: 30;">
+         <styleClass>
+            <String fx:value="form" />
+            <String fx:value="textSubSubTitle" />
+         </styleClass>
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+         <graphic>
+            <Group>
+               <children>
+                  <Label layoutX="195.0" layoutY="-3.0" prefHeight="21.0" prefWidth="130.0" text="completed by:&#10;" textFill="#9a8c8c">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Button layoutX="-1.0" layoutY="4.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="41.0" styleClass="Back_Row">
+                     <graphic>
+                        <FontAwesomeIcon fill="WHITE" glyphName="LIST_UL" size="25" />
+                     </graphic>
+                  </Button>
+                  <Text layoutX="72.0" layoutY="35.2744140625" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 30;" text="Form 1">
+                     <styleClass>
+                        <String fx:value="form" />
+                        <String fx:value="textSubSubTitle" />
+                     </styleClass>
+                  </Text>
+                  <Label fx:id="count1" layoutX="195.0" layoutY="20.0" prefHeight="27.0" prefWidth="120.0" text="100 users" textFill="#9a8c8c">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Group>
+         </graphic>
+      </Button>
+      <Button fx:id="form2" layoutX="116.0" layoutY="277.0" mnemonicParsing="false" onAction="#select" prefHeight="66.0" prefWidth="392.0" style="-fx-font-size: 30;">
+         <styleClass>
+            <String fx:value="form" />
+            <String fx:value="textSubSubTitle" />
+         </styleClass>
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+         <graphic>
+            <Group>
+               <children>
+                  <Button layoutX="-1.0" layoutY="4.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="41.0" styleClass="Back_Row">
+                     <graphic>
+                        <FontAwesomeIcon fill="WHITE" glyphName="LIST_UL" size="25" />
+                     </graphic>
+                  </Button>
+                  <Text layoutX="72.0" layoutY="35.2744140625" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 30;" text="Form 2">
+                     <styleClass>
+                        <String fx:value="form" />
+                        <String fx:value="textSubSubTitle" />
+                     </styleClass>
+                  </Text>
+                  <Label layoutX="195.0" layoutY="-3.0" prefHeight="27.0" prefWidth="117.0" text="completed by:&#10;" textFill="#9a8c8c">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="count2" layoutX="195.0" layoutY="19.0" prefHeight="27.0" prefWidth="113.0" text="100 users" textFill="#9a8c8c">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Group>
+         </graphic>
+      </Button>
+      <Button fx:id="form3" layoutX="117.0" layoutY="357.0" mnemonicParsing="false" onAction="#select" prefHeight="66.0" prefWidth="392.0" style="-fx-font-size: 30;">
+         <styleClass>
+            <String fx:value="form" />
+            <String fx:value="textSubSubTitle" />
+         </styleClass>
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+         <graphic>
+            <Group>
+               <children>
+                  <Button layoutX="-1.0" layoutY="4.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="41.0" styleClass="Back_Row">
+                     <graphic>
+                        <FontAwesomeIcon fill="WHITE" glyphName="LIST_UL" size="25" />
+                     </graphic>
+                  </Button>
+                  <Text layoutX="72.0" layoutY="35.2744140625" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 30;" text="Form 3">
+                     <styleClass>
+                        <String fx:value="form" />
+                        <String fx:value="textSubSubTitle" />
+                     </styleClass>
+                  </Text>
+                  <Label layoutX="195.0" prefHeight="27.0" prefWidth="117.0" text="completed by:&#10;" textFill="#9a8c8c">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="count3" layoutX="195.0" layoutY="18.0" prefHeight="27.0" prefWidth="113.0" text="100 users" textFill="#9a8c8c">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Group>
+         </graphic>
+      </Button>
+    </children>
+</AnchorPane>
